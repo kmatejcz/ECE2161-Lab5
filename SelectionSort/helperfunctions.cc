@@ -24,8 +24,6 @@ void	printmenu() {
 			cout << "  3: Sort using Bsort" << endl;
 			cout << "  4: Sort using Csort" << endl;
 			cout << "  5: Sort using Dsort" << endl;
-			cout << "  6: Sort using Esort" << endl;
-			cout << "  7: Sort using Fsort" << endl;
 			cout << "  0: Exit program" << endl;
 			cout << endl << "Enter your choice: ";
 
@@ -107,14 +105,5 @@ int		writefile(long data[], long size, string outfilename) {
 // Swaps two numbers. Numbers *must* be passed by reference, else we end up
 // swapping only copies of data, not the originals.
 
-void	swap(long& x, long& y) {
 
-			long	tmp;
-
-			tmp = x;
-			x = y;
-			y = tmp;
-
-			return;
-}
 

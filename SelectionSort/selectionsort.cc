@@ -1,12 +1,4 @@
-/*
- * Selectionsort function
- * Karolina Matejczyk
- * Lab 5 Project
- */
-
-#include "my_headers.h"
-#include<iostream>
-#include<fstream>
+#include "sort.h"
 
 void Csort(long data[], long size){
 
